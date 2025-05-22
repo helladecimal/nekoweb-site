@@ -10,11 +10,19 @@
 }
 
 
+.center {
+  margin: auto;
+  width: 65%;
+}
 
 body {
   background-color: var(--ef-bg);
 }
 
-p {
+p, h2 {
   color: var(--ef-fg);
+}
+
+h2 {
+  font-family: AstheticPixel;
 }
