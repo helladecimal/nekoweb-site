@@ -1,7 +1,12 @@
 @font-face { font-family: AstheticPixel; src: url('fonts/AstheticPixel-Regular.otf'); } 
 @font-face { font-family: VPPixel; src: url('fonts/VPPixel-Simplified.otf'); } 
 
+/* colors */
+:root {
+  --ef-bg: #232A2E;
+  --ef-brown: #4D4C43;
+  --ef-orange: #514045;
+}
 p {
-  font-family: VPPixel;
-  color: blue;
+  color: var(--ef-brown);
 }
