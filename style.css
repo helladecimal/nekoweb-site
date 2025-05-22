@@ -3,11 +3,12 @@
 
 /* colors */
 :root {
-  --ef-bg: #2D353B;
+  --ef-bg: #1E2326;
   --ef-fg: #D3C6AA;
   --ef-aqua: #83C092;
   --ef-orange: #E69875;
 }
+
 
 
 body {
