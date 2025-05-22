@@ -7,6 +7,12 @@
   --ef-brown: #4D4C43;
   --ef-orange: #514045;
 }
+
+
+body {
+  background-color: var(--ef-bg);
+}
+
 p {
   color: var(--ef-brown);
 }
