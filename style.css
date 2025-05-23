@@ -23,6 +23,15 @@ p, h2 {
   color: var(--ef-fg);
 }
 
-h2 {
+#title {
+  font-size: 200%;
   font-family: AstheticPixel;
+  padding-bottom: 5px;
+  padding-top: 10px
+}
+
+hr {
+  height: 1px;
+  color: var(--ef-fg);
+  background-color: var(--ef-fg);
 }
