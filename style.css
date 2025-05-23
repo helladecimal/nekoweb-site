@@ -1,6 +1,8 @@
 @font-face { font-family: AstheticPixel; src: url('fonts/AstheticPixel-Regular.otf'); } 
 @font-face { font-family: VPPixel; src: url('fonts/VPPixel-Simplified.otf'); } 
+@font-face { font-family: Kode; src: url('fonts/KodeMono-VariableFont_wght.ttf'); } 
 
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 /* colors */
 :root {
@@ -22,17 +24,22 @@ body {
 
 p, h2 {
   color: var(--ef-fg);
+  font-family: Kode;
 }
 
+
+
 #title {
+  margin-top: 7.5%;
   font-size: 200%;
   font-family: AstheticPixel;
-  padding-bottom: 5px;
-  padding-top: 10px
+  margin-bottom: 15px;
 }
 
 hr {
   height: 1px;
+  outline: 0px;
   color: var(--ef-fg);
   background-color: var(--ef-fg);
+  margin-top: 10px; margin-bottom: 10px;
 }
