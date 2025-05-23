@@ -1,6 +1,8 @@
 @font-face { font-family: AstheticPixel; src: url('fonts/AstheticPixel-Regular.otf'); } 
 @font-face { font-family: VPPixel; src: url('fonts/VPPixel-Simplified.otf'); } 
 
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 /* colors */
 :root {
   --ef-bg: #1E2326;
