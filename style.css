@@ -15,7 +15,6 @@
 
 .center {
   margin: auto;
-  width: 60%;
 }
 
 body {
@@ -27,7 +26,14 @@ p, h2 {
   font-family: Kode;
 }
 
+.container {
+  width: 60%;
+  display: flex;
+}
 
+.main {
+  width: 60%;
+}
 
 #title {
   margin-top: 7.5%;
