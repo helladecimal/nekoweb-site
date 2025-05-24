@@ -40,7 +40,7 @@ p, h2, li {
 }
 
 .box {
-  border: 1px solid var(--ef-orange)
+  border: 1px solid var(--ef-fg)
 }
 
 #title {
