@@ -21,7 +21,7 @@ body {
   background-color: var(--ef-bg);
 }
 
-p, h2 {
+p, h2, li {
   color: var(--ef-fg);
   font-family: Kode;
 }
@@ -32,7 +32,15 @@ p, h2 {
 }
 
 .main {
-  width: 60%;
+  width: 70%;
+}
+
+.nav {
+  width: 15%;
+}
+
+.box {
+  border: 1px solid var(--ef-orange)
 }
 
 #title {
