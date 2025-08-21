@@ -17,7 +17,7 @@
   margin: auto;
 }
 
-.center h2 {
+.center h2, h1, p{
   text-align: center;
 }
 
@@ -37,7 +37,7 @@ body {
   }
 }
 
-p, h2, li {
+p, h2, li, h1 {
   color: var(--ef-fg);
   font-family: Helvetica;
 }
