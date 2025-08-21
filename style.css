@@ -21,6 +21,11 @@
   text-align: center;
 }
 
+.lines {
+  border-top: 2px solid var(--ef-fg);
+  border-bottom: 2px solid var(--ef-fg);
+}
+
 body {
   background-image: url("img/bg.png");
   background-repeat: repeat;
@@ -37,7 +42,7 @@ body {
   }
 }
 
-p, h2, li, h1 {
+p, h2, li, h1, a {
   color: var(--ef-fg);
   font-family: Helvetica;
 }
