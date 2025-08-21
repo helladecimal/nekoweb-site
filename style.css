@@ -23,6 +23,18 @@
 
 body {
   background-image: url("img/bg.png");
+  background-repeat: repeat;
+  animation: move-bg 3.5s linear infinite;
+}
+
+@keyframes move-bg {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -200px 200px;
+  }
 }
 
 p, h2, li {
@@ -31,6 +43,7 @@ p, h2, li {
 }
 
 .container {
+  margin-top: 5%;
   width: 60%;
   display: flex;
   justify-content: center;
