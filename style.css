@@ -17,7 +17,7 @@
   margin: auto;
 }
 
-.center h2, h1, p{
+.center h2, h1, p, div{
   text-align: center;
 }
 
@@ -42,13 +42,13 @@ body {
   }
 }
 
-p, h2, li, h1, a {
+p, h2, li, h1, a, div{
   color: var(--ef-fg);
   font-family: Helvetica;
 }
 
 .container {
-  margin-top: 5%;
+  margin-top: 2.5%;
   width: 60%;
   display: flex;
   justify-content: center;
@@ -71,15 +71,12 @@ p, h2, li, h1, a {
 }
 
 .title {
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 250%;
   font-family: Arial;
   font-weight: lighter;
   margin-bottom: 5%;
 }
-
-
-
 
 
 hr {
