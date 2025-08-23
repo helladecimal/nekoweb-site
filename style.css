@@ -52,8 +52,11 @@ body {
   }
 }
 
+
+
+
 .marquee > span{
-  width: 50ch;
+  width: 75ch;
   animation: marquee 8s linear infinite;
   
 }
