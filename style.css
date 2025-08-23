@@ -42,6 +42,22 @@ body {
   }
 }
 
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee > span{
+  width: 50ch;
+  animation: marquee 8s linear infinite;
+  
+}
+
 p, h2, li, h1, a, div{
   color: var(--ef-fg);
   font-family: Helvetica;
@@ -68,6 +84,7 @@ p, h2, li, h1, a, div{
   background-color:var(--ef-bg);
   padding: 5%;
   padding-top: 0%;
+  overflow: hidden;
 }
 
 .title {

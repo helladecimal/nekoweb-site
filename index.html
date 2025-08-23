@@ -6,6 +6,8 @@
   <body>
     <div class="container center">
 
+      
+
       <div class="box" style="width:80px;">
         <h2>Pages</h2>
         <p>
@@ -42,11 +44,21 @@
         <p>click on the sidebar to view my socials and other things</p>
         <hr><hr>
 
-      <div class="container box center" style="width: 60%;">
-        
-      </div>
+      <div class="container box center marquee" style="width: 90%; padding: 10px;"><span id="random"></span></div>
       </div>
     </div>
     
+
+    <script>
+        var texts = ["nah ts element marquee", "stop earting the soap"];
+
+        const el = document.getElementById("random");
+        el.textContent = texts[Math.floor(Math.random()*texts.length)];
+        el.addEventListener("animationiteration", () => {
+          el.textContent = texts[Math.floor(Math.random()*texts.length)];
+        });
+        console.log(el.textContent)
+        console.log("text")
+      </script>
   </body>
 </html>
