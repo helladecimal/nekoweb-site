@@ -71,6 +71,7 @@ p, h2, li, h1, a, div{
   width: 60%;
   display: flex;
   justify-content: center;
+  align-items:flex-start;
   gap: 20px;
 }
 

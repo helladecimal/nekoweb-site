@@ -4,32 +4,37 @@
   </head>
 
   <body>
+    <div class="container box center marquee" style="padding: 10px; width: 40%; margin-bottom: -20px; margin-top: 20px;" ><span id="random"></span></div>
     <div class="container center">
-
       
-
-      <div class="box" style="width:80px;">
+      <div class="box" style="width:85px;">
         <h2>Pages</h2>
+        <p>
+          main
+        </p>
         <p>
           <a href="/about">about me</a>
         </p>
         <p>
           <a href="/projects">projects</a>
         </p>
+        <p>
+          <a href="/info">website info</a>
+        </p>
 
 
         <h2>Socials</h2>
         <p>
-          <a href="#">bluesky</a>
+          <a href="https://bsky.app/profile/hecka.bsky.social">bluesky</a>
         </p>
         <p>
-          <a href="#">hjonk</a>
+          <a href="https://hjonk.me/@heckanumeric">hjonk</a>
         </p>
          <p>
-          <a href="#">youtube</a>
+          <a href="https://www.youtube.com/@HeckadecimaI">youtube</a>
         </p>
          <p>
-          <a href="#">discord</a>
+          <a href="https://discordapp.com/users/757252150442197033">discord</a>
         </p>
 
       </div>
@@ -40,14 +45,13 @@
           /ᐠ.ꞈ.ᐟ\
         </h2>
         
-        <hr><hr>
+        <hr>
         
         
-        <p>hi, im heckadecimal</p>
-        <p>click on the sidebar to view my socials and other things</p>
-        <hr><hr>
-
-      <div class="container box center marquee" style="width: 90%; padding: 10px;"><span id="random"></span></div>
+        <p>hello, im heckadecimal</p>
+        <p>i like coding, music, and other things</p>
+        <p>click on the sidebar to view my socials to learn more about me</p>
+        <hr>
       </div>
     </div>
     
@@ -59,13 +63,16 @@
           "excuse me do you know where the exit is", 
           "My girlfriend made me put this exact message in here", 
           "wellll its rick and morty time", 
-          "dont tap the glass... dont tap the glaaaassss"
+          "dont tap the glass... dont tap the glaaaassss",
+          "WALT DISNEY... NIKE... GOO GOO",
+          "bro thought i was new to calculus roleplay",
+          "does he know about the DORE..."
         ];
 
         const el = document.getElementById("random");
-        el.textContent = texts[Math.floor(Math.random()*texts.length)];
+        el.textContent = "[ " + texts[Math.floor(Math.random()*texts.length)] + " ]";
         el.addEventListener("animationiteration", () => {
-          el.textContent = texts[Math.floor(Math.random()*texts.length)];
+          el.textContent = "[ " + texts[Math.floor(Math.random()*texts.length)] + " ]";
         });
         console.log(el.textContent)
         console.log("text")
